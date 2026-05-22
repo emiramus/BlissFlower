@@ -1,0 +1,14 @@
+.map-wrapper {
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.map-wrapper iframe {
+  transition: transform 0.3s ease;
+}
+
+.map-wrapper iframe:hover {
+  transform: scale(1.02);
+}
